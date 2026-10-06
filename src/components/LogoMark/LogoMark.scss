@@ -1,0 +1,7 @@
+.zenix-mark{position:relative;display:grid;place-items:center;width:58px;height:58px;border-radius:var(--radius-control);background:linear-gradient(145deg,#202327,#131517);box-shadow:inset 0 1px 0 rgba(255,255,255,.09),0 14px 34px rgba(0,0,0,.22);overflow:hidden;flex:0 0 auto}
+.zenix-mark:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 28% 18%,rgba(255,255,255,.09),transparent 42%);pointer-events:none}
+.zenix-mark svg{position:relative;width:82%;height:82%;z-index:1}
+.zenix-mark--compact{width:40px;height:40px;border-radius:var(--radius-sm)}
+.zenix-mark--hero{width:min(360px,62vw);height:min(360px,62vw);border-radius:30%;background:linear-gradient(145deg,rgba(255,255,255,.065),rgba(255,255,255,.018));border:1px solid rgba(255,255,255,.09);box-shadow:inset 0 1px 0 rgba(255,255,255,.09),0 40px 100px rgba(0,0,0,.32)}
+.zenix-mark--hero svg{width:88%;height:88%}
+@media(max-width:760px){.zenix-mark--hero{width:min(310px,72vw);height:min(310px,72vw)}}
